@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocado y Trago - Gastrobar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HERO con imagen de portada -->
+    <header class="hero">
+        <div class="hero-bg">
+            <img src="https://cdn.oreateai.com/aiimage/upload/3ef2691a93bbdb2f92ab6d64/60db525544359388bbddc440bacb9c65.jpeg" alt="Bocado y Trago - Gastrobar Portada">
+        </div>
+        <div class="hero-content">
+            <div class="hero-logo">Bocado y Trago</div>
+            <div class="hero-subtitle">Gastrobar</div>
+            <p class="hero-tagline">"Sabores colombianos con actitud"</p>
+            <div class="hero-info">
+                <span><span class="icon">📍</span> Chapinero — Zona G, Bogotá</span>
+                <span><span class="icon">🕐</span> Abierto ahora</span>
+                <span><span class="icon">📞</span> 3005928907</span>
+            </div>
+            <div class="hero-pills">
+                <span class="hero-pill">🇨🇴 Cocina de inspiración colombiana</span>
+                <span class="hero-pill">🍹 Coctelería de autor</span>
+                <span class="hero-pill">✨ Ambiente moderno</span>
+                <span class="hero-pill">🥂 Experiencias para compartir</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-bar">
+        <div class="nav-inner">
+            <button class="nav-btn" onclick="scrollToSection('entradas')">Entradas</button>
+            <button class="nav-btn" onclick="scrollToSection('compartir')">Compartir</button>
+            <button class="nav-btn" onclick="scrollToSection('antojos')">Antojos</button>
+            <button class="nav-btn" onclick="scrollToSection('fuertes')">Platos Fuertes</button>
+            <button class="nav-btn" onclick="scrollToSection('cocteles')">Cócteles</button>
+            <button class="nav-btn" onclick="scrollToSection('cervezas')">Cervezas</button>
+            <button class="nav-btn" onclick="scrollToSection('sin-alcohol')">Sin Alcohol</button>
+        </div>
+    </nav>
+
+    <!-- Imagen del menú de comida -->
+    <div class="gallery-divider fade-in" style="padding-top: 40px;">
+        <img src="https://cdn.oreateai.com/aiimage/upload/3ef2691a93bbdb2f92ab6d64/46c792891509e6d59206ab5d0abda7c4.jpeg" alt="Menú de Comida - Bocado y Trago">
+    </div>
+
+
+    <!-- Imagen del menú de bebidas -->
+    <div class="gallery-divider fade-in" style="padding-top: 30px;">
+        <img src="https://cdn.oreateai.com/aiimage/upload/3ef2691a93bbdb2f92ab6d64/58982ad8d946c618dee64cbf91fef94c.jpeg" alt="Menú de Bebidas - Bocado y Trago">
+    </div>
+
+   
+    <!-- IVA NOTICE -->
+    <div class="iva-notice"> Todos nuestros precios incluyen IVA.</div>
+
+    <!-- ============ INFO / CONTACT con imagen de fondo ============ -->
+    <section class="info-section">
+        <div class="info-section-bg">
+            <img src="https://cdn.oreateai.com/aiimage/upload/3ef2691a93bbdb2f92ab6d64/8f01a2539537aa1c4ab2362bb3c2bfe7.jpeg" alt="Bocado y Trago - Contacto e Información">
+        </div>
+        <div class="info-inner">
+            <div class="info-block">
+                <h3>📍 Ubicación</h3>
+                <p>Calle 69A #5-75<br>Barrio Chapinero, Zona G<br>Bogotá D.C., Colombia</p>
+            </div>
+            <div class="info-block">
+                <h3>🕐 Horarios</h3>
+                <p>Lunes a Jueves: 4:00 p.m. – 12:00 a.m.<br>
+                Viernes a Sábado: 4:00 p.m. – 1:00 a.m.<br>
+                Domingo: 4:00 p.m. – 11:00 p.m.</p>
+            </div>
+            <div class="info-block">
+                <h3>📞 Reservas</h3>
+                <p><a href="tel:3005928907">300 123 4567</a><br>
+                <a href="mailto:reservas@bocadoytrago.com">reservas@bocadoytrago.com</a></p>
+                <div class="social-links">
+                    <a href="#" title="Instagram">IG</a>
+                    <a href="#" title="Facebook">FB</a>
+                    <a href="#" title="TikTok">TK</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 <span>Bocado y Trago</span> Gastrobar — Todos los derechos reservados</p>
+    </footer>
+
+    <!-- WHATSAPP FLOATING BUTTON -->
+    <a href="https://wa.me/573005928907" class="whatsapp-btn" target="_blank" rel="noopener">
+        <span class="wa-icon">💬</span> Reservar
+    </a>
+
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top" id="scrollTopBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
